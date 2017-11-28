@@ -27,7 +27,6 @@ FOUNDATION_EXPORT const unsigned char CLXBaseUtilityVersionString[];
 #import <CLXBaseUtility/CLXRuntimeHelper.h>
 #import <CLXBaseUtility/CLXNTHost.h>
 #import <CLXBaseUtility/CLXTree.h>
-#import <CLXBaseUtility/CLXSafeMutableDictionary.h>
 
 //category
 #import <CLXBaseUtility/NSURL+CLXAdd.h>

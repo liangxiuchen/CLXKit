@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72F539641FCD07C700BD963E /* CLXPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F5395A1FCD07C700BD963E /* CLXPlayground.framework */; };
+		72F539691FCD07C700BD963E /* CLXPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F539681FCD07C700BD963E /* CLXPlaygroundTests.m */; };
+		72F5396B1FCD07C700BD963E /* CLXPlayground.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F5395D1FCD07C700BD963E /* CLXPlayground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72F5397C1FCD094C00BD963E /* CLXSafeMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F539741FCD094C00BD963E /* CLXSafeMutableDictionary.m */; };
+		72F5397D1FCD094C00BD963E /* BlockCompression.c in Sources */ = {isa = PBXBuildFile; fileRef = 72F539751FCD094C00BD963E /* BlockCompression.c */; };
+		72F5397E1FCD094C00BD963E /* CLXMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F539761FCD094C00BD963E /* CLXMediator.h */; };
+		72F5397F1FCD094C00BD963E /* BlockCompression.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F539771FCD094C00BD963E /* BlockCompression.h */; };
+		72F539801FCD094C00BD963E /* NSObject+CLXKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F539781FCD094C00BD963E /* NSObject+CLXKVO.h */; };
+		72F539811FCD094C00BD963E /* NSObject+CLXKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F539791FCD094C00BD963E /* NSObject+CLXKVO.m */; };
+		72F539821FCD094C00BD963E /* CLXSafeMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F5397A1FCD094C00BD963E /* CLXSafeMutableDictionary.h */; };
+		72F539831FCD094C00BD963E /* CLXMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F5397B1FCD094C00BD963E /* CLXMediator.m */; };
+		D5907B30CD0A445FEAE8906F /* libPods-CLXPlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65299AB739BD46AC83014BC9 /* libPods-CLXPlayground.a */; };
+		FF8D85711EF7C1D7D4EA9A7A /* libPods-CLXPlaygroundTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC1FEF52BE843620CDBAC90 /* libPods-CLXPlaygroundTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72F539651FCD07C700BD963E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72F539511FCD07C700BD963E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F539591FCD07C700BD963E;
+			remoteInfo = CLXPlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D03D2995727A1AA9E9BD608 /* Pods-CLXPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLXPlayground.release.xcconfig"; path = "../CLXTest/Pods/Target Support Files/Pods-CLXPlayground/Pods-CLXPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		3CA480A833D68CB315653DAB /* Pods-CLXPlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLXPlaygroundTests.debug.xcconfig"; path = "../CLXTest/Pods/Target Support Files/Pods-CLXPlaygroundTests/Pods-CLXPlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		65299AB739BD46AC83014BC9 /* libPods-CLXPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLXPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F5395A1FCD07C700BD963E /* CLXPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLXPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F5395D1FCD07C700BD963E /* CLXPlayground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXPlayground.h; sourceTree = "<group>"; };
+		72F5395E1FCD07C700BD963E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F539631FCD07C700BD963E /* CLXPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLXPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F539681FCD07C700BD963E /* CLXPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXPlaygroundTests.m; sourceTree = "<group>"; };
+		72F5396A1FCD07C700BD963E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F539741FCD094C00BD963E /* CLXSafeMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLXSafeMutableDictionary.m; sourceTree = "<group>"; };
+		72F539751FCD094C00BD963E /* BlockCompression.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BlockCompression.c; sourceTree = "<group>"; };
+		72F539761FCD094C00BD963E /* CLXMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLXMediator.h; sourceTree = "<group>"; };
+		72F539771FCD094C00BD963E /* BlockCompression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockCompression.h; sourceTree = "<group>"; };
+		72F539781FCD094C00BD963E /* NSObject+CLXKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CLXKVO.h"; sourceTree = "<group>"; };
+		72F539791FCD094C00BD963E /* NSObject+CLXKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CLXKVO.m"; sourceTree = "<group>"; };
+		72F5397A1FCD094C00BD963E /* CLXSafeMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLXSafeMutableDictionary.h; sourceTree = "<group>"; };
+		72F5397B1FCD094C00BD963E /* CLXMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLXMediator.m; sourceTree = "<group>"; };
+		836C777B7FC2FB692E059505 /* Pods-CLXPlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLXPlaygroundTests.release.xcconfig"; path = "../CLXTest/Pods/Target Support Files/Pods-CLXPlaygroundTests/Pods-CLXPlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		EBC1FEF52BE843620CDBAC90 /* libPods-CLXPlaygroundTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLXPlaygroundTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A82350BB8C99BC8E793186 /* Pods-CLXPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLXPlayground.debug.xcconfig"; path = "../CLXTest/Pods/Target Support Files/Pods-CLXPlayground/Pods-CLXPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72F539561FCD07C700BD963E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5907B30CD0A445FEAE8906F /* libPods-CLXPlayground.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F539601FCD07C700BD963E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F539641FCD07C700BD963E /* CLXPlayground.framework in Frameworks */,
+				FF8D85711EF7C1D7D4EA9A7A /* libPods-CLXPlaygroundTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72F539501FCD07C700BD963E = {
+			isa = PBXGroup;
+			children = (
+				72F5395C1FCD07C700BD963E /* CLXPlayground */,
+				72F539671FCD07C700BD963E /* CLXPlaygroundTests */,
+				72F5395B1FCD07C700BD963E /* Products */,
+				9939FDB5E464C680B7293EDF /* Pods */,
+				CA764AA5961DD29155B50307 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72F5395B1FCD07C700BD963E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72F5395A1FCD07C700BD963E /* CLXPlayground.framework */,
+				72F539631FCD07C700BD963E /* CLXPlaygroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72F5395C1FCD07C700BD963E /* CLXPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				72F539751FCD094C00BD963E /* BlockCompression.c */,
+				72F539771FCD094C00BD963E /* BlockCompression.h */,
+				72F539761FCD094C00BD963E /* CLXMediator.h */,
+				72F5397B1FCD094C00BD963E /* CLXMediator.m */,
+				72F5397A1FCD094C00BD963E /* CLXSafeMutableDictionary.h */,
+				72F539741FCD094C00BD963E /* CLXSafeMutableDictionary.m */,
+				72F539781FCD094C00BD963E /* NSObject+CLXKVO.h */,
+				72F539791FCD094C00BD963E /* NSObject+CLXKVO.m */,
+				72F5395D1FCD07C700BD963E /* CLXPlayground.h */,
+				72F5395E1FCD07C700BD963E /* Info.plist */,
+			);
+			path = CLXPlayground;
+			sourceTree = "<group>";
+		};
+		72F539671FCD07C700BD963E /* CLXPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				72F539681FCD07C700BD963E /* CLXPlaygroundTests.m */,
+				72F5396A1FCD07C700BD963E /* Info.plist */,
+			);
+			path = CLXPlaygroundTests;
+			sourceTree = "<group>";
+		};
+		9939FDB5E464C680B7293EDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2A82350BB8C99BC8E793186 /* Pods-CLXPlayground.debug.xcconfig */,
+				0D03D2995727A1AA9E9BD608 /* Pods-CLXPlayground.release.xcconfig */,
+				3CA480A833D68CB315653DAB /* Pods-CLXPlaygroundTests.debug.xcconfig */,
+				836C777B7FC2FB692E059505 /* Pods-CLXPlaygroundTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA764AA5961DD29155B50307 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65299AB739BD46AC83014BC9 /* libPods-CLXPlayground.a */,
+				EBC1FEF52BE843620CDBAC90 /* libPods-CLXPlaygroundTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		72F539571FCD07C700BD963E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F539821FCD094C00BD963E /* CLXSafeMutableDictionary.h in Headers */,
+				72F5396B1FCD07C700BD963E /* CLXPlayground.h in Headers */,
+				72F539801FCD094C00BD963E /* NSObject+CLXKVO.h in Headers */,
+				72F5397E1FCD094C00BD963E /* CLXMediator.h in Headers */,
+				72F5397F1FCD094C00BD963E /* BlockCompression.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		72F539591FCD07C700BD963E /* CLXPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F5396E1FCD07C700BD963E /* Build configuration list for PBXNativeTarget "CLXPlayground" */;
+			buildPhases = (
+				B148619E99FC2E495F37D1BC /* [CP] Check Pods Manifest.lock */,
+				72F539551FCD07C700BD963E /* Sources */,
+				72F539561FCD07C700BD963E /* Frameworks */,
+				72F539571FCD07C700BD963E /* Headers */,
+				72F539581FCD07C700BD963E /* Resources */,
+				AD4FF4D91AD0ACC2B6D67AEA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLXPlayground;
+			productName = CLXPlayground;
+			productReference = 72F5395A1FCD07C700BD963E /* CLXPlayground.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		72F539621FCD07C700BD963E /* CLXPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F539711FCD07C700BD963E /* Build configuration list for PBXNativeTarget "CLXPlaygroundTests" */;
+			buildPhases = (
+				7C516ED583DA703CB74FAC9D /* [CP] Check Pods Manifest.lock */,
+				72F5395F1FCD07C700BD963E /* Sources */,
+				72F539601FCD07C700BD963E /* Frameworks */,
+				72F539611FCD07C700BD963E /* Resources */,
+				E313F8FD0C02D664220B055C /* [CP] Embed Pods Frameworks */,
+				DDEDE8E2D2104D4C3D1116D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72F539661FCD07C700BD963E /* PBXTargetDependency */,
+			);
+			name = CLXPlaygroundTests;
+			productName = CLXPlaygroundTests;
+			productReference = 72F539631FCD07C700BD963E /* CLXPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72F539511FCD07C700BD963E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = liang.xiu.chen.cn;
+				TargetAttributes = {
+					72F539591FCD07C700BD963E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					72F539621FCD07C700BD963E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 72F539541FCD07C700BD963E /* Build configuration list for PBXProject "CLXPlayground" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72F539501FCD07C700BD963E;
+			productRefGroup = 72F5395B1FCD07C700BD963E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72F539591FCD07C700BD963E /* CLXPlayground */,
+				72F539621FCD07C700BD963E /* CLXPlaygroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72F539581FCD07C700BD963E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F539611FCD07C700BD963E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C516ED583DA703CB74FAC9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLXPlaygroundTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4FF4D91AD0ACC2B6D67AEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../CLXTest/Pods/Target Support Files/Pods-CLXPlayground/Pods-CLXPlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B148619E99FC2E495F37D1BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLXPlayground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDEDE8E2D2104D4C3D1116D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../CLXTest/Pods/Target Support Files/Pods-CLXPlaygroundTests/Pods-CLXPlaygroundTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E313F8FD0C02D664220B055C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../CLXTest/Pods/Target Support Files/Pods-CLXPlaygroundTests/Pods-CLXPlaygroundTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72F539551FCD07C700BD963E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F539831FCD094C00BD963E /* CLXMediator.m in Sources */,
+				72F5397D1FCD094C00BD963E /* BlockCompression.c in Sources */,
+				72F5397C1FCD094C00BD963E /* CLXSafeMutableDictionary.m in Sources */,
+				72F539811FCD094C00BD963E /* NSObject+CLXKVO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F5395F1FCD07C700BD963E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F539691FCD07C700BD963E /* CLXPlaygroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72F539661FCD07C700BD963E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72F539591FCD07C700BD963E /* CLXPlayground */;
+			targetProxy = 72F539651FCD07C700BD963E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		72F5396C1FCD07C700BD963E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72F5396D1FCD07C700BD963E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72F5396F1FCD07C700BD963E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A82350BB8C99BC8E793186 /* Pods-CLXPlayground.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 63S6NEKCLA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CLXPlayground/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liang.xiu.chen.cn.bexrunnerTests.CLXPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72F539701FCD07C700BD963E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D03D2995727A1AA9E9BD608 /* Pods-CLXPlayground.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 63S6NEKCLA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CLXPlayground/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liang.xiu.chen.cn.bexrunnerTests.CLXPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72F539721FCD07C700BD963E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA480A833D68CB315653DAB /* Pods-CLXPlaygroundTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63S6NEKCLA;
+				INFOPLIST_FILE = CLXPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liang.xiu.chen.cn.bexrunnerTests.CLXPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72F539731FCD07C700BD963E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836C777B7FC2FB692E059505 /* Pods-CLXPlaygroundTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63S6NEKCLA;
+				INFOPLIST_FILE = CLXPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liang.xiu.chen.cn.bexrunnerTests.CLXPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72F539541FCD07C700BD963E /* Build configuration list for PBXProject "CLXPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F5396C1FCD07C700BD963E /* Debug */,
+				72F5396D1FCD07C700BD963E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F5396E1FCD07C700BD963E /* Build configuration list for PBXNativeTarget "CLXPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F5396F1FCD07C700BD963E /* Debug */,
+				72F539701FCD07C700BD963E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F539711FCD07C700BD963E /* Build configuration list for PBXNativeTarget "CLXPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F539721FCD07C700BD963E /* Debug */,
+				72F539731FCD07C700BD963E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72F539511FCD07C700BD963E /* Project object */;
+}

@@ -2,10 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:CLXTest.xcodeproj">
+      location = "group:../CLXBaseUtility/CLXBaseUtility.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../CLXBaseUtility/CLXBaseUtility.xcodeproj">
+      location = "group:../CLXPlayground/CLXPlayground.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CLXTest.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

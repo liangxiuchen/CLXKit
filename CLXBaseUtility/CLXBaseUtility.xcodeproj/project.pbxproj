@@ -21,8 +21,6 @@
 		722E88BF1FC98FFD00792FE0 /* CLXTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E88BD1FC98FFD00792FE0 /* CLXTree.m */; };
 		723F84521FCBA64700D128B5 /* CLXTreeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 723F84511FCBA64700D128B5 /* CLXTreeTest.m */; };
 		723F84551FCCE96200D128B5 /* CLXSafeMutableDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 723F84541FCCE96200D128B5 /* CLXSafeMutableDictionaryTest.m */; };
-		723F84581FCCED6600D128B5 /* NSObject+CLXKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 723F84561FCCED6600D128B5 /* NSObject+CLXKVO.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		723F84591FCCED6600D128B5 /* NSObject+CLXKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 723F84571FCCED6600D128B5 /* NSObject+CLXKVO.m */; };
 		723F845B1FCCF19300D128B5 /* CLXKVOTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 723F845A1FCCF19300D128B5 /* CLXKVOTest.m */; };
 		724FA1FF1FAAC4FE001CF08B /* NSURL+CLXAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 724FA1FA1FAAC4FE001CF08B /* NSURL+CLXAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		724FA2001FAAC4FE001CF08B /* NSURL+CLXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 724FA1FB1FAAC4FE001CF08B /* NSURL+CLXAdd.m */; };
@@ -39,19 +37,13 @@
 		725BEF061F9DC51B00BB1516 /* CLXRandomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 725BEF051F9DC51B00BB1516 /* CLXRandomTests.m */; };
 		72689DDD1FB06B31002502AE /* iphone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72689DDC1FB06938002502AE /* iphone.mp3 */; };
 		72A452CB1FC819D700EE9877 /* CLXGCDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A452CA1FC819D700EE9877 /* CLXGCDTest.m */; };
-		72A452CE1FC81EEF00EE9877 /* CLXSafeMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A452CC1FC81EEF00EE9877 /* CLXSafeMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72A452CF1FC81EEF00EE9877 /* CLXSafeMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A452CD1FC81EEF00EE9877 /* CLXSafeMutableDictionary.m */; };
 		72AE78BF1FC4484600BFE42D /* CLXNTHost.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AE78BD1FC4484600BFE42D /* CLXNTHost.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72AE78C01FC4484600BFE42D /* CLXNTHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE78BE1FC4484600BFE42D /* CLXNTHost.m */; };
 		72AE78C21FC5135D00BFE42D /* CLXHostTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE78C11FC5135D00BFE42D /* CLXHostTest.m */; };
 		72AE78C81FC54AA000BFE42D /* CLXURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AE78C61FC54AA000BFE42D /* CLXURLProtocol.h */; };
 		72AE78C91FC54AA000BFE42D /* CLXURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE78C71FC54AA000BFE42D /* CLXURLProtocol.m */; };
 		72AE78CB1FC554FE00BFE42D /* CLXURLProtocolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE78CA1FC554FE00BFE42D /* CLXURLProtocolTest.m */; };
-		72AE78D31FC6B17B00BFE42D /* CLXMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AE78D11FC6B17B00BFE42D /* CLXMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72AE78D41FC6B17B00BFE42D /* CLXMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE78D21FC6B17B00BFE42D /* CLXMediator.m */; };
 		72AE78D61FC6BFA000BFE42D /* CLXMediatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE78D51FC6BFA000BFE42D /* CLXMediatorTest.m */; };
-		72BCE2C81FAD4E0D007823D5 /* BlockCompression.c in Sources */ = {isa = PBXBuildFile; fileRef = 72BCE2C61FAD4E0D007823D5 /* BlockCompression.c */; };
-		72BCE2C91FAD4E0D007823D5 /* BlockCompression.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BCE2C71FAD4E0D007823D5 /* BlockCompression.h */; };
 		72BCE2CB1FAD7FCF007823D5 /* CompressionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BCE2CA1FAD7FCF007823D5 /* CompressionTest.m */; };
 		72BCE2D71FADF987007823D5 /* CLXKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BCE2CE1FADF987007823D5 /* CLXKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72BCE2D81FADF987007823D5 /* CLXKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BCE2CF1FADF987007823D5 /* CLXKeychain.m */; };
@@ -96,8 +88,6 @@
 		722E88BD1FC98FFD00792FE0 /* CLXTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXTree.m; sourceTree = "<group>"; };
 		723F84511FCBA64700D128B5 /* CLXTreeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXTreeTest.m; sourceTree = "<group>"; };
 		723F84541FCCE96200D128B5 /* CLXSafeMutableDictionaryTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXSafeMutableDictionaryTest.m; sourceTree = "<group>"; };
-		723F84561FCCED6600D128B5 /* NSObject+CLXKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CLXKVO.h"; sourceTree = "<group>"; };
-		723F84571FCCED6600D128B5 /* NSObject+CLXKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CLXKVO.m"; sourceTree = "<group>"; };
 		723F845A1FCCF19300D128B5 /* CLXKVOTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXKVOTest.m; sourceTree = "<group>"; };
 		724FA1FA1FAAC4FE001CF08B /* NSURL+CLXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+CLXAdd.h"; sourceTree = "<group>"; };
 		724FA1FB1FAAC4FE001CF08B /* NSURL+CLXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+CLXAdd.m"; sourceTree = "<group>"; };
@@ -117,19 +107,13 @@
 		725BEF051F9DC51B00BB1516 /* CLXRandomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXRandomTests.m; sourceTree = "<group>"; };
 		72689DDC1FB06938002502AE /* iphone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone.mp3; sourceTree = "<group>"; };
 		72A452CA1FC819D700EE9877 /* CLXGCDTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXGCDTest.m; sourceTree = "<group>"; };
-		72A452CC1FC81EEF00EE9877 /* CLXSafeMutableDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXSafeMutableDictionary.h; sourceTree = "<group>"; };
-		72A452CD1FC81EEF00EE9877 /* CLXSafeMutableDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXSafeMutableDictionary.m; sourceTree = "<group>"; };
 		72AE78BD1FC4484600BFE42D /* CLXNTHost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXNTHost.h; sourceTree = "<group>"; };
 		72AE78BE1FC4484600BFE42D /* CLXNTHost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXNTHost.m; sourceTree = "<group>"; };
 		72AE78C11FC5135D00BFE42D /* CLXHostTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXHostTest.m; sourceTree = "<group>"; };
 		72AE78C61FC54AA000BFE42D /* CLXURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXURLProtocol.h; sourceTree = "<group>"; };
 		72AE78C71FC54AA000BFE42D /* CLXURLProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXURLProtocol.m; sourceTree = "<group>"; };
 		72AE78CA1FC554FE00BFE42D /* CLXURLProtocolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXURLProtocolTest.m; sourceTree = "<group>"; };
-		72AE78D11FC6B17B00BFE42D /* CLXMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXMediator.h; sourceTree = "<group>"; };
-		72AE78D21FC6B17B00BFE42D /* CLXMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXMediator.m; sourceTree = "<group>"; };
 		72AE78D51FC6BFA000BFE42D /* CLXMediatorTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXMediatorTest.m; sourceTree = "<group>"; };
-		72BCE2C61FAD4E0D007823D5 /* BlockCompression.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BlockCompression.c; sourceTree = "<group>"; };
-		72BCE2C71FAD4E0D007823D5 /* BlockCompression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockCompression.h; sourceTree = "<group>"; };
 		72BCE2CA1FAD7FCF007823D5 /* CompressionTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompressionTest.m; sourceTree = "<group>"; };
 		72BCE2CE1FADF987007823D5 /* CLXKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLXKeychain.h; sourceTree = "<group>"; };
 		72BCE2CF1FADF987007823D5 /* CLXKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLXKeychain.m; sourceTree = "<group>"; };
@@ -226,8 +210,6 @@
 				724FA1FB1FAAC4FE001CF08B /* NSURL+CLXAdd.m */,
 				72F57E851FBA8DD300BC2D59 /* NSDictionary+CLXAdd.h */,
 				72F57E861FBA8DD300BC2D59 /* NSDictionary+CLXAdd.m */,
-				723F84561FCCED6600D128B5 /* NSObject+CLXKVO.h */,
-				723F84571FCCED6600D128B5 /* NSObject+CLXKVO.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -280,12 +262,6 @@
 				724FA1FC1FAAC4FE001CF08B /* URLEncode */,
 				725BEEEC1F9DB5C800BB1516 /* WeakProxy */,
 				725BEED61F9DB54800BB1516 /* Info.plist */,
-				72BCE2C61FAD4E0D007823D5 /* BlockCompression.c */,
-				72BCE2C71FAD4E0D007823D5 /* BlockCompression.h */,
-				72AE78D11FC6B17B00BFE42D /* CLXMediator.h */,
-				72AE78D21FC6B17B00BFE42D /* CLXMediator.m */,
-				72A452CC1FC81EEF00EE9877 /* CLXSafeMutableDictionary.h */,
-				72A452CD1FC81EEF00EE9877 /* CLXSafeMutableDictionary.m */,
 			);
 			path = CLXBaseUtility;
 			sourceTree = "<group>";
@@ -399,17 +375,13 @@
 				724FA1FF1FAAC4FE001CF08B /* NSURL+CLXAdd.h in Headers */,
 				725BEEF51F9DB73A00BB1516 /* CLXWeakProxy.h in Headers */,
 				72AE78C81FC54AA000BFE42D /* CLXURLProtocol.h in Headers */,
-				72BCE2C91FAD4E0D007823D5 /* BlockCompression.h in Headers */,
-				723F84581FCCED6600D128B5 /* NSObject+CLXKVO.h in Headers */,
 				724FA2051FAAC543001CF08B /* CLXURLEncoder.h in Headers */,
 				72F57E8E1FBAEC2900BC2D59 /* CLXEncryptor.h in Headers */,
 				7226D9701FB59F96004AC5F0 /* CLXTimer.h in Headers */,
 				724FA2091FAAC7D9001CF08B /* CLXURLEncodeMaker.h in Headers */,
 				721CEF961FB19207008C8619 /* CLXDigest.h in Headers */,
-				72AE78D31FC6B17B00BFE42D /* CLXMediator.h in Headers */,
 				72BCE2DB1FADF987007823D5 /* CLXKeychainQuery.h in Headers */,
 				72BCE2DD1FADF987007823D5 /* CLXRandom.h in Headers */,
-				72A452CE1FC81EEF00EE9877 /* CLXSafeMutableDictionary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,11 +575,9 @@
 			files = (
 				725BEEF61F9DB73F00BB1516 /* CLXWeakProxy.m in Sources */,
 				72BCE2D81FADF987007823D5 /* CLXKeychain.m in Sources */,
-				72BCE2C81FAD4E0D007823D5 /* BlockCompression.c in Sources */,
 				7226D9711FB59F96004AC5F0 /* CLXTimer.m in Sources */,
 				72BCE2DA1FADF987007823D5 /* CLXKeychainItem.m in Sources */,
 				724FA2001FAAC4FE001CF08B /* NSURL+CLXAdd.m in Sources */,
-				723F84591FCCED6600D128B5 /* NSObject+CLXKVO.m in Sources */,
 				72F57E8F1FBAEC2900BC2D59 /* CLXEncryptor.m in Sources */,
 				72AE78C91FC54AA000BFE42D /* CLXURLProtocol.m in Sources */,
 				7226D96B1FB58815004AC5F0 /* CLXRuntimeHelper.c in Sources */,
@@ -616,8 +586,6 @@
 				72BCE2DC1FADF987007823D5 /* CLXKeychainQuery.m in Sources */,
 				721CEF971FB19207008C8619 /* CLXDigest.m in Sources */,
 				72BCE2DE1FADF987007823D5 /* CLXRandom.m in Sources */,
-				72A452CF1FC81EEF00EE9877 /* CLXSafeMutableDictionary.m in Sources */,
-				72AE78D41FC6B17B00BFE42D /* CLXMediator.m in Sources */,
 				722E88BF1FC98FFD00792FE0 /* CLXTree.m in Sources */,
 				724FA20A1FAAC7D9001CF08B /* CLXURLEncodeMaker.m in Sources */,
 				72AE78C01FC4484600BFE42D /* CLXNTHost.m in Sources */,

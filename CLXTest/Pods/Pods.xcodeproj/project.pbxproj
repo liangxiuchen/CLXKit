@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		0214246CCB1FF7182F7222B9CCDF8FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
 		04FC5508C0747B5B4534534731E9B24F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
-		0C08FB39CE09D3CEF96C55E564960728 /* Pods-CLXTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D142029268CDA29E84FB839AFCCC635 /* Pods-CLXTest-dummy.m */; };
-		115AB4E4917EA73E192594C2F0574F13 /* Pods-CLXBaseUtilityTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D97D0B3AD24CC779D6F689B9EA1B51 /* Pods-CLXBaseUtilityTests-dummy.m */; };
+		0C08FB39CE09D3CEF96C55E564960728 /* Pods-CLXTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D857887C86455BD46B86DC24B2CB1C0F /* Pods-CLXTest-dummy.m */; };
+		115AB4E4917EA73E192594C2F0574F13 /* Pods-CLXBaseUtilityTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C88DB24D1126F4BEFF770BA7BDFACC /* Pods-CLXBaseUtilityTests-dummy.m */; };
 		1341A7AC2439CB63D459D32EF985A414 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DC8653B61F64B5FC03BFC2B0A6E528 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD285AED0831E93357E3974CA50A1A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
 		2579663181BFA8F7DA4B5D7CF8537FC0 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D925E789318555435D0DBEF9BEC8015 /* UIActivityIndicatorView+AFNetworking.m */; };
-		292325C9803F7FE0F743AA3DB7FA8E29 /* Pods-CLXBaseUtility-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA62AB366EF1333CF85611FE5C024E /* Pods-CLXBaseUtility-dummy.m */; };
+		292325C9803F7FE0F743AA3DB7FA8E29 /* Pods-CLXBaseUtility-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F87682BEC9F02B0BEC4E53F18076C43 /* Pods-CLXBaseUtility-dummy.m */; };
 		2EBAA518CB8B2DAF89A63637091D4615 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD303D6F6C659A55A8684008D1476CB /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F4ACC51EBB919BA28DBCF6B97F8A9B8 /* Pods-CLXPlayground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B411AA0D04CB28A8328F66F893D22EE /* Pods-CLXPlayground-dummy.m */; };
 		31ED9BD97AF9E62874AF3CDF2F8090CF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9DC137B1B02C802E7ABBECC9401A7B /* AFNetworkActivityIndicatorManager.m */; };
+		3EF46F8654B67C2C1F71AD458FD955E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
 		414B2DC29C7091E2C78E8753BF8EA792 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
 		46401F3C7FF0B0CFE2E9B14914780835 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E71FC5436C29FCEB72394E7117726B8F /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DBABCCC487C3E6A0AAF979609747F91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
@@ -29,7 +32,7 @@
 		707E818332E5033501DF2D7826C639DF /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B17FF80B117EDDFBD41C5C3B5C1D217 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		734D3B81CF846E4A68E5DE736767502F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
 		73811DA312BCB537D44D62EC6AD15766 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EAD270211F301E809EA7C39D05A3DC /* AFHTTPSessionManager.m */; };
-		76D080DAFCB15A1BBFFC0D83870C88DF /* Pods-CLXTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 553222997CB62680AB5BEA1DE03E063A /* Pods-CLXTestTests-dummy.m */; };
+		76D080DAFCB15A1BBFFC0D83870C88DF /* Pods-CLXTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6128D6A8B4957A066644C8B756EF2CC1 /* Pods-CLXTestTests-dummy.m */; };
 		775CE7A8107457BDE59F113D40020839 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1246CB48952FF37C1DB54894C46F6390 /* AFAutoPurgingImageCache.m */; };
 		85D30678FF4F0AB306399A368EAA46B2 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E990D35FEF51D7420F303E35DCBE1F6 /* AFURLResponseSerialization.m */; };
 		8958F2453EEBAF71BFEBD78FB48986EC /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 036FDD48539129C05AAE4C9ACA312100 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,6 +40,7 @@
 		97A86FAAD4B1AD9B3292FF6AF1D8F82B /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F2B0D3DD13B76429F713F1F1A1CC6F /* AFNetworking-dummy.m */; };
 		9F5BB6B4995BA4A3B2C6AEBA6C31A6DB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 809E0EE6429DA2700D30D5F8F46F4100 /* AFURLSessionManager.m */; };
 		A277AD9070E44BED5A7DE0B1D64D6F15 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9837C7FFCFC4203B1BAADAADD8E206 /* UIImageView+AFNetworking.m */; };
+		A58A17ABEF019ADAA7977CB5CFE50853 /* Pods-CLXPlaygroundTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B16CB7312F69B53CE9F54BB5166734B3 /* Pods-CLXPlaygroundTests-dummy.m */; };
 		A7F7FDCD36E2DD8D8E346DB19452CC03 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 51204DFB5BF601D556D71C3736263351 /* UIWebView+AFNetworking.m */; };
 		B40756412613B53C80EE77C4C223990F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1207584E6BDCF4C846A1DDFE0BCFEECF /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B84CD33084C9867E67BD56E47B7BFC04 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CC618B900858F4F77C2746363E77B86C /* UIRefreshControl+AFNetworking.m */; };
@@ -76,8 +80,7 @@
 /* Begin PBXFileReference section */
 		036FDD48539129C05AAE4C9ACA312100 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		0401DF9E61B17C3AE9FE93347CCD9E64 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		0504A62D8ADF9AEC08DDD3851561D1EA /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		086E3D3034735F559FC42091BBA65494 /* Pods-CLXTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		044E8D581333601D3AF09C2C9B59AF5D /* Pods-CLXTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLXTest-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0E9837C7FFCFC4203B1BAADAADD8E206 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		1207584E6BDCF4C846A1DDFE0BCFEECF /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		1246CB48952FF37C1DB54894C46F6390 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
@@ -86,68 +89,84 @@
 		14F2B0D3DD13B76429F713F1F1A1CC6F /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		18A6CC7151721E485930D715056633ED /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		18B9DCDB5BE79C17D786D046D23A6C8F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		1BF080E913A9E8FE02D1DB10684A0653 /* Pods-CLXTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXTest.release.xcconfig"; sourceTree = "<group>"; };
-		1CAA62AB366EF1333CF85611FE5C024E /* Pods-CLXBaseUtility-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLXBaseUtility-dummy.m"; sourceTree = "<group>"; };
+		1A4F07FE3D062990C437C8D705F40DDC /* Pods-CLXPlayground-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLXPlayground-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E63458A532BD8358E888DBE8E6B6B4B /* Pods-CLXTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXTest.debug.xcconfig"; sourceTree = "<group>"; };
 		1E990D35FEF51D7420F303E35DCBE1F6 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		1F81BEB69D96BE9CC7B65EDA4B163351 /* Pods-CLXTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLXTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F87682BEC9F02B0BEC4E53F18076C43 /* Pods-CLXBaseUtility-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLXBaseUtility-dummy.m"; sourceTree = "<group>"; };
 		20CB1302DD85B80CBADE42E436CF5930 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		24746AA528947852B2BC7AA0BF01FFE7 /* Pods-CLXPlaygroundTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLXPlaygroundTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		248FE3EC2BD747B268B014B6E831CA5C /* Pods-CLXBaseUtilityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXBaseUtilityTests.release.xcconfig"; sourceTree = "<group>"; };
+		265AC4B024943867E65A1FB6FD9F9CD5 /* Pods-CLXPlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXPlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE129E5740F9A8295E6F8DAD49270EE /* Pods-CLXPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		31FF8BF3D5098468C27E0EF0189EF7A2 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F0D2BCAB94D4F3BA8F7BC9142AF0BB /* Pods-CLXBaseUtilityTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLXBaseUtilityTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		357FC25AA9F2E82213C986CE50969E1A /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		3A1229EA323C623012EF56C02AF5C1E9 /* libPods-CLXTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CLXTest.a"; path = "libPods-CLXTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3E6529A3662968FDAAF5780EFDB6DA /* Pods-CLXBaseUtility-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXBaseUtility-resources.sh"; sourceTree = "<group>"; };
 		3B8C2F3F38AC8B05D07C9BAACD044EAD /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		3D002937D200EC6A6B6BE66E5DA69239 /* Pods-CLXBaseUtilityTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLXBaseUtilityTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		426E139402B0D3F0AAB9262D42479BA9 /* Pods-CLXBaseUtility-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLXBaseUtility-acknowledgements.markdown"; sourceTree = "<group>"; };
 		42C03FCF30AB48A3B8DC805A289477E2 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		42EAD270211F301E809EA7C39D05A3DC /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		452FE19D9FACA69A3310814278C3418D /* Pods-CLXBaseUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXBaseUtility.release.xcconfig"; sourceTree = "<group>"; };
 		4852ABEFD7FFFAE072C5835CCDB22279 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		4D925E789318555435D0DBEF9BEC8015 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		4F1EC2A635B49B13108CEEFD5FB3CA26 /* Pods-CLXTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXTest-frameworks.sh"; sourceTree = "<group>"; };
 		51204DFB5BF601D556D71C3736263351 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		516F3F2A9B24B2E2092E84E8EAF0A9F7 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		525066ED64B26EC45F9B2AD4D3B0D1B2 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		52EC74AB04271B3BAA21E700E7E2DB80 /* Pods-CLXBaseUtilityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXBaseUtilityTests.release.xcconfig"; sourceTree = "<group>"; };
-		538ACBE308B28305364AF093D0B3CFE4 /* Pods-CLXTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXTestTests.release.xcconfig"; sourceTree = "<group>"; };
-		553222997CB62680AB5BEA1DE03E063A /* Pods-CLXTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLXTestTests-dummy.m"; sourceTree = "<group>"; };
-		72EBEDC698B74D36BF8A3EF902DF7F2B /* Pods-CLXTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLXTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		762D97653FCBB4E30FD5C6551C96A493 /* Pods-CLXTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLXTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5322A29A606D17E47A73DE2DD9CF35EA /* Pods-CLXTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		6128D6A8B4957A066644C8B756EF2CC1 /* Pods-CLXTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLXTestTests-dummy.m"; sourceTree = "<group>"; };
+		61F356B5A018AAEBA95FFEF8FBB2808A /* Pods-CLXBaseUtilityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXBaseUtilityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62DC996980C635B70E6F8FD6DB0769FA /* libPods-CLXPlaygroundTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CLXPlaygroundTests.a"; path = "libPods-CLXPlaygroundTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		696041B94A06E8F037F6E660168B90EA /* libPods-CLXTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CLXTestTests.a"; path = "libPods-CLXTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B411AA0D04CB28A8328F66F893D22EE /* Pods-CLXPlayground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLXPlayground-dummy.m"; sourceTree = "<group>"; };
 		78C774AEA3474BF09AD285C28E701D5F /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		7D142029268CDA29E84FB839AFCCC635 /* Pods-CLXTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLXTest-dummy.m"; sourceTree = "<group>"; };
+		79356E7841D99019B73DE35074F37E65 /* Pods-CLXBaseUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXBaseUtility.debug.xcconfig"; sourceTree = "<group>"; };
+		7E8893A932BD9429F3EE975F3F52FFBE /* libPods-CLXBaseUtilityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CLXBaseUtilityTests.a"; path = "libPods-CLXBaseUtilityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8006E5A6F0951AA637FFA7F53DBA00D9 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		809E0EE6429DA2700D30D5F8F46F4100 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		815E4424D9D5880B18DF51368866C828 /* Pods-CLXBaseUtility-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLXBaseUtility-acknowledgements.plist"; sourceTree = "<group>"; };
 		8946DE00AC08571F0D4A4F985A8FA609 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		8B17FF80B117EDDFBD41C5C3B5C1D217 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		8D0AAD5F1A33CCDB8734FE7844E06AC8 /* Pods-CLXTestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXTestTests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		993476884E0B1D58B0F6070669F46627 /* libPods-CLXTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CLXTest.a"; path = "libPods-CLXTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A13E6AE846FC77483BA1EE0080554AB5 /* Pods-CLXTestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXTestTests-resources.sh"; sourceTree = "<group>"; };
-		A57C8CEFD706AC838BF6D69272FF4C5B /* libPods-CLXBaseUtilityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CLXBaseUtilityTests.a"; path = "libPods-CLXBaseUtilityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94739A0C97D1E567FC357244E510C9AC /* Pods-CLXTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXTest-frameworks.sh"; sourceTree = "<group>"; };
+		955757AF1CF375D54DA4246B6BE3039A /* Pods-CLXTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXTest.release.xcconfig"; sourceTree = "<group>"; };
+		9A23633969CAAC613C91A5D1A69EA3ED /* Pods-CLXTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLXTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A64716173FC0305057230E14CDCC7A77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		AE53B12C729BD56CCE0BB0E4399736EF /* libPods-CLXTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CLXTestTests.a"; path = "libPods-CLXTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF2CC19E35B6A289DF5C325A6C2B4E7 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		B364F6CC7F6CFDB0D3E01F9854DB0262 /* Pods-CLXBaseUtilityTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXBaseUtilityTests-frameworks.sh"; sourceTree = "<group>"; };
-		B467F5B86BA7235B4F2CFBB3AC9BF1C9 /* Pods-CLXBaseUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXBaseUtility.debug.xcconfig"; sourceTree = "<group>"; };
-		B6D97D0B3AD24CC779D6F689B9EA1B51 /* Pods-CLXBaseUtilityTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLXBaseUtilityTests-dummy.m"; sourceTree = "<group>"; };
-		B884FD7AFAF24A2EDC44DBF8CFD5F02C /* Pods-CLXBaseUtilityTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLXBaseUtilityTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B16CB7312F69B53CE9F54BB5166734B3 /* Pods-CLXPlaygroundTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLXPlaygroundTests-dummy.m"; sourceTree = "<group>"; };
+		B8180641E54D1F3DCF5752507AF1B2CA /* Pods-CLXPlaygroundTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXPlaygroundTests-frameworks.sh"; sourceTree = "<group>"; };
 		B9FDBCCB266ACFED93E55656FD8A014C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		BEC642B47722F1FE524C875D6E90AF23 /* Pods-CLXPlayground-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXPlayground-resources.sh"; sourceTree = "<group>"; };
 		BFD303D6F6C659A55A8684008D1476CB /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		C0DC8653B61F64B5FC03BFC2B0A6E528 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		C0ED8278C446CCE3A0C475170E85A802 /* libPods-CLXBaseUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CLXBaseUtility.a"; path = "libPods-CLXBaseUtility.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23C3983ADC1EBC0A6AD3D68F3DBC4BA /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		C5B3EC0F8FB09AD635C3B628FD1F4513 /* Pods-CLXBaseUtilityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXBaseUtilityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C361C77C75ED820835530F1A5EEB4F39 /* Pods-CLXPlaygroundTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLXPlaygroundTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C46F24FE23776BD2130AF0B13519EBAF /* Pods-CLXTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLXTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5D313BAA1E5D50A8AD6C9883AFCC743 /* libPods-CLXPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CLXPlayground.a"; path = "libPods-CLXPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C656F1874D4E871310E258FE2466A896 /* Pods-CLXBaseUtilityTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXBaseUtilityTests-frameworks.sh"; sourceTree = "<group>"; };
+		C82E09AA0EBE4E021F2D36CBFB546FA7 /* Pods-CLXBaseUtilityTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLXBaseUtilityTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CC618B900858F4F77C2746363E77B86C /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		D0D228FD030071817D8411E0964040DD /* Pods-CLXTestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXTestTests-frameworks.sh"; sourceTree = "<group>"; };
-		D0D81441E50F345C9DABA5F5B2F5D652 /* Pods-CLXBaseUtility-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLXBaseUtility-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDABE2F53424B58B97A59230761C8521 /* Pods-CLXPlayground-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLXPlayground-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF816B824F458DDB38DB6C6031BDA272 /* Pods-CLXTestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXTestTests-frameworks.sh"; sourceTree = "<group>"; };
 		D0F90194E52430599383549278FEA918 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		D1364E1A74FA884D5BCADB171DFE7353 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
 		D2792B01BCFFB8C68B0CE56421B99A2F /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		D50E2C0EB910D317BC922F3F87B535EA /* Pods-CLXBaseUtility-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXBaseUtility-resources.sh"; sourceTree = "<group>"; };
-		D6A7F98D6ADD6499561BEC1A659B06B1 /* Pods-CLXBaseUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXBaseUtility.release.xcconfig"; sourceTree = "<group>"; };
-		E440C92E8FE95D65C051E54A34F1ABCA /* Pods-CLXTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXTest-resources.sh"; sourceTree = "<group>"; };
+		D4C84E454DBC14FEF62EC2A03F1D3498 /* Pods-CLXTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D769412E54767ADA78B47ED76C924DAE /* Pods-CLXBaseUtilityTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXBaseUtilityTests-resources.sh"; sourceTree = "<group>"; };
+		D857887C86455BD46B86DC24B2CB1C0F /* Pods-CLXTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLXTest-dummy.m"; sourceTree = "<group>"; };
+		D98E1B56F991729F26FA22418826CA1C /* Pods-CLXPlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXPlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
 		E451FBBEE5D302A74D966AC502CE5B19 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		E71FC5436C29FCEB72394E7117726B8F /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		EACCED44AB9273273C1C994764524B74 /* Pods-CLXTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXTest.debug.xcconfig"; sourceTree = "<group>"; };
 		EC8A7C0B6179467051ED95E59DB2AF9F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		EEFAE942329F4B62C5DA86D1707A5FF6 /* Pods-CLXTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLXTest-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F290ABB7731ABE409B4EA48BE84D34D6 /* libPods-CLXBaseUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CLXBaseUtility.a"; path = "libPods-CLXBaseUtility.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4DB33954FA15569CF9FC4A000300BA1 /* Pods-CLXBaseUtility-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLXBaseUtility-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE900A9772C52C92057E3C0B41801DCF /* Pods-CLXPlaygroundTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXPlaygroundTests-resources.sh"; sourceTree = "<group>"; };
+		EFCF265C27F734CB61DC13C6B5A0D721 /* Pods-CLXTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLXTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7C88DB24D1126F4BEFF770BA7BDFACC /* Pods-CLXBaseUtilityTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLXBaseUtilityTests-dummy.m"; sourceTree = "<group>"; };
 		F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FD43BE22FB92B2C54CCF85EE80FCD449 /* Pods-CLXPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLXPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 		FE9DC137B1B02C802E7ABBECC9401A7B /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		FF475F7282279D0C239A9D3AF5CA6334 /* Pods-CLXBaseUtilityTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXBaseUtilityTests-resources.sh"; sourceTree = "<group>"; };
+		FF6BE177E7BE7AC9E5F0B91AD1CBE326 /* Pods-CLXTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLXTest-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,11 +178,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90E8CACACD02D45BFBDF8EF7B3FE632C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD285AED0831E93357E3974CA50A1A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B379D31279D59F76656F3C165D79D42C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				414B2DC29C7091E2C78E8753BF8EA792 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA3A3306F7EC66995120444BED6257B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF46F8654B67C2C1F71AD458FD955E4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +242,20 @@
 			name = Reachability;
 			sourceTree = "<group>";
 		};
+		09FB442BA3F95B6DA34F5CE0DF97FD0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31FF8BF3D5098468C27E0EF0189EF7A2 /* libAFNetworking.a */,
+				C0ED8278C446CCE3A0C475170E85A802 /* libPods-CLXBaseUtility.a */,
+				7E8893A932BD9429F3EE975F3F52FFBE /* libPods-CLXBaseUtilityTests.a */,
+				C5D313BAA1E5D50A8AD6C9883AFCC743 /* libPods-CLXPlayground.a */,
+				62DC996980C635B70E6F8FD6DB0769FA /* libPods-CLXPlaygroundTests.a */,
+				3A1229EA323C623012EF56C02AF5C1E9 /* libPods-CLXTest.a */,
+				696041B94A06E8F037F6E660168B90EA /* libPods-CLXTestTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		118C018DD63A7C9B85C796B9D7927B72 /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,48 +297,31 @@
 			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
-		40FDAA55BD6F280D01F96098F17B09D1 /* Pods-CLXBaseUtility */ = {
+		3AD890CF1EB0F55856D50263A01464BB /* Pods-CLXPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				D0D81441E50F345C9DABA5F5B2F5D652 /* Pods-CLXBaseUtility-acknowledgements.markdown */,
-				F4DB33954FA15569CF9FC4A000300BA1 /* Pods-CLXBaseUtility-acknowledgements.plist */,
-				1CAA62AB366EF1333CF85611FE5C024E /* Pods-CLXBaseUtility-dummy.m */,
-				D50E2C0EB910D317BC922F3F87B535EA /* Pods-CLXBaseUtility-resources.sh */,
-				B467F5B86BA7235B4F2CFBB3AC9BF1C9 /* Pods-CLXBaseUtility.debug.xcconfig */,
-				D6A7F98D6ADD6499561BEC1A659B06B1 /* Pods-CLXBaseUtility.release.xcconfig */,
+				CDABE2F53424B58B97A59230761C8521 /* Pods-CLXPlayground-acknowledgements.markdown */,
+				1A4F07FE3D062990C437C8D705F40DDC /* Pods-CLXPlayground-acknowledgements.plist */,
+				6B411AA0D04CB28A8328F66F893D22EE /* Pods-CLXPlayground-dummy.m */,
+				BEC642B47722F1FE524C875D6E90AF23 /* Pods-CLXPlayground-resources.sh */,
+				FD43BE22FB92B2C54CCF85EE80FCD449 /* Pods-CLXPlayground.debug.xcconfig */,
+				2EE129E5740F9A8295E6F8DAD49270EE /* Pods-CLXPlayground.release.xcconfig */,
 			);
-			name = "Pods-CLXBaseUtility";
-			path = "Target Support Files/Pods-CLXBaseUtility";
+			name = "Pods-CLXPlayground";
+			path = "Target Support Files/Pods-CLXPlayground";
 			sourceTree = "<group>";
 		};
-		423171DB87DB2364B0B87379E3FC5B52 /* Pods-CLXTestTests */ = {
+		61A09BBF5259C262D56AD8DF5E3D4ABC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				762D97653FCBB4E30FD5C6551C96A493 /* Pods-CLXTestTests-acknowledgements.markdown */,
-				72EBEDC698B74D36BF8A3EF902DF7F2B /* Pods-CLXTestTests-acknowledgements.plist */,
-				553222997CB62680AB5BEA1DE03E063A /* Pods-CLXTestTests-dummy.m */,
-				D0D228FD030071817D8411E0964040DD /* Pods-CLXTestTests-frameworks.sh */,
-				A13E6AE846FC77483BA1EE0080554AB5 /* Pods-CLXTestTests-resources.sh */,
-				086E3D3034735F559FC42091BBA65494 /* Pods-CLXTestTests.debug.xcconfig */,
-				538ACBE308B28305364AF093D0B3CFE4 /* Pods-CLXTestTests.release.xcconfig */,
+				6B9A881F7EBE14B6602AB4C27FAE6C6B /* Pods-CLXBaseUtility */,
+				CA2886047F49300DB2999B2F8F012AC3 /* Pods-CLXBaseUtilityTests */,
+				3AD890CF1EB0F55856D50263A01464BB /* Pods-CLXPlayground */,
+				66FEC0C4A53DA3F0D43D5FE9F798F408 /* Pods-CLXPlaygroundTests */,
+				CF52E5050CF4E59E54452145508BD7F5 /* Pods-CLXTest */,
+				DB03E2D1D8FD79707A54999AEBE762C2 /* Pods-CLXTestTests */,
 			);
-			name = "Pods-CLXTestTests";
-			path = "Target Support Files/Pods-CLXTestTests";
-			sourceTree = "<group>";
-		};
-		623B9EE241D42E4704B1475E18BAA8B8 /* Pods-CLXBaseUtilityTests */ = {
-			isa = PBXGroup;
-			children = (
-				3D002937D200EC6A6B6BE66E5DA69239 /* Pods-CLXBaseUtilityTests-acknowledgements.markdown */,
-				B884FD7AFAF24A2EDC44DBF8CFD5F02C /* Pods-CLXBaseUtilityTests-acknowledgements.plist */,
-				B6D97D0B3AD24CC779D6F689B9EA1B51 /* Pods-CLXBaseUtilityTests-dummy.m */,
-				B364F6CC7F6CFDB0D3E01F9854DB0262 /* Pods-CLXBaseUtilityTests-frameworks.sh */,
-				FF475F7282279D0C239A9D3AF5CA6334 /* Pods-CLXBaseUtilityTests-resources.sh */,
-				C5B3EC0F8FB09AD635C3B628FD1F4513 /* Pods-CLXBaseUtilityTests.debug.xcconfig */,
-				52EC74AB04271B3BAA21E700E7E2DB80 /* Pods-CLXBaseUtilityTests.release.xcconfig */,
-			);
-			name = "Pods-CLXBaseUtilityTests";
-			path = "Target Support Files/Pods-CLXBaseUtilityTests";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		641BDD347DE7B8BB81D6CA5727C6EC5A /* Pods */ = {
@@ -327,27 +359,59 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
+		66FEC0C4A53DA3F0D43D5FE9F798F408 /* Pods-CLXPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				C361C77C75ED820835530F1A5EEB4F39 /* Pods-CLXPlaygroundTests-acknowledgements.markdown */,
+				24746AA528947852B2BC7AA0BF01FFE7 /* Pods-CLXPlaygroundTests-acknowledgements.plist */,
+				B16CB7312F69B53CE9F54BB5166734B3 /* Pods-CLXPlaygroundTests-dummy.m */,
+				B8180641E54D1F3DCF5752507AF1B2CA /* Pods-CLXPlaygroundTests-frameworks.sh */,
+				EE900A9772C52C92057E3C0B41801DCF /* Pods-CLXPlaygroundTests-resources.sh */,
+				265AC4B024943867E65A1FB6FD9F9CD5 /* Pods-CLXPlaygroundTests.debug.xcconfig */,
+				D98E1B56F991729F26FA22418826CA1C /* Pods-CLXPlaygroundTests.release.xcconfig */,
+			);
+			name = "Pods-CLXPlaygroundTests";
+			path = "Target Support Files/Pods-CLXPlaygroundTests";
+			sourceTree = "<group>";
+		};
+		6B9A881F7EBE14B6602AB4C27FAE6C6B /* Pods-CLXBaseUtility */ = {
+			isa = PBXGroup;
+			children = (
+				426E139402B0D3F0AAB9262D42479BA9 /* Pods-CLXBaseUtility-acknowledgements.markdown */,
+				815E4424D9D5880B18DF51368866C828 /* Pods-CLXBaseUtility-acknowledgements.plist */,
+				1F87682BEC9F02B0BEC4E53F18076C43 /* Pods-CLXBaseUtility-dummy.m */,
+				3B3E6529A3662968FDAAF5780EFDB6DA /* Pods-CLXBaseUtility-resources.sh */,
+				79356E7841D99019B73DE35074F37E65 /* Pods-CLXBaseUtility.debug.xcconfig */,
+				452FE19D9FACA69A3310814278C3418D /* Pods-CLXBaseUtility.release.xcconfig */,
+			);
+			name = "Pods-CLXBaseUtility";
+			path = "Target Support Files/Pods-CLXBaseUtility";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
 				641BDD347DE7B8BB81D6CA5727C6EC5A /* Pods */,
-				92E25BB0ACAFFE89F12112EDEFC5137A /* Products */,
-				EBDF8B26B0EA59846D746EE9A83051AC /* Targets Support Files */,
+				09FB442BA3F95B6DA34F5CE0DF97FD0C /* Products */,
+				61A09BBF5259C262D56AD8DF5E3D4ABC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		92E25BB0ACAFFE89F12112EDEFC5137A /* Products */ = {
+		CA2886047F49300DB2999B2F8F012AC3 /* Pods-CLXBaseUtilityTests */ = {
 			isa = PBXGroup;
 			children = (
-				0504A62D8ADF9AEC08DDD3851561D1EA /* libAFNetworking.a */,
-				F290ABB7731ABE409B4EA48BE84D34D6 /* libPods-CLXBaseUtility.a */,
-				A57C8CEFD706AC838BF6D69272FF4C5B /* libPods-CLXBaseUtilityTests.a */,
-				993476884E0B1D58B0F6070669F46627 /* libPods-CLXTest.a */,
-				AE53B12C729BD56CCE0BB0E4399736EF /* libPods-CLXTestTests.a */,
+				C82E09AA0EBE4E021F2D36CBFB546FA7 /* Pods-CLXBaseUtilityTests-acknowledgements.markdown */,
+				32F0D2BCAB94D4F3BA8F7BC9142AF0BB /* Pods-CLXBaseUtilityTests-acknowledgements.plist */,
+				F7C88DB24D1126F4BEFF770BA7BDFACC /* Pods-CLXBaseUtilityTests-dummy.m */,
+				C656F1874D4E871310E258FE2466A896 /* Pods-CLXBaseUtilityTests-frameworks.sh */,
+				D769412E54767ADA78B47ED76C924DAE /* Pods-CLXBaseUtilityTests-resources.sh */,
+				61F356B5A018AAEBA95FFEF8FBB2808A /* Pods-CLXBaseUtilityTests.debug.xcconfig */,
+				248FE3EC2BD747B268B014B6E831CA5C /* Pods-CLXBaseUtilityTests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-CLXBaseUtilityTests";
+			path = "Target Support Files/Pods-CLXBaseUtilityTests";
 			sourceTree = "<group>";
 		};
 		CB79318D3E8AF2183319FF8098C5AE5E /* iOS */ = {
@@ -360,6 +424,21 @@
 				EC8A7C0B6179467051ED95E59DB2AF9F /* SystemConfiguration.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF52E5050CF4E59E54452145508BD7F5 /* Pods-CLXTest */ = {
+			isa = PBXGroup;
+			children = (
+				044E8D581333601D3AF09C2C9B59AF5D /* Pods-CLXTest-acknowledgements.markdown */,
+				EFCF265C27F734CB61DC13C6B5A0D721 /* Pods-CLXTest-acknowledgements.plist */,
+				D857887C86455BD46B86DC24B2CB1C0F /* Pods-CLXTest-dummy.m */,
+				94739A0C97D1E567FC357244E510C9AC /* Pods-CLXTest-frameworks.sh */,
+				FF6BE177E7BE7AC9E5F0B91AD1CBE326 /* Pods-CLXTest-resources.sh */,
+				1E63458A532BD8358E888DBE8E6B6B4B /* Pods-CLXTest.debug.xcconfig */,
+				955757AF1CF375D54DA4246B6BE3039A /* Pods-CLXTest.release.xcconfig */,
+			);
+			name = "Pods-CLXTest";
+			path = "Target Support Files/Pods-CLXTest";
 			sourceTree = "<group>";
 		};
 		D8AEA08F300093373DE87ADAC55F71FA /* AFNetworking */ = {
@@ -377,6 +456,21 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
+		DB03E2D1D8FD79707A54999AEBE762C2 /* Pods-CLXTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A23633969CAAC613C91A5D1A69EA3ED /* Pods-CLXTestTests-acknowledgements.markdown */,
+				C46F24FE23776BD2130AF0B13519EBAF /* Pods-CLXTestTests-acknowledgements.plist */,
+				6128D6A8B4957A066644C8B756EF2CC1 /* Pods-CLXTestTests-dummy.m */,
+				CF816B824F458DDB38DB6C6031BDA272 /* Pods-CLXTestTests-frameworks.sh */,
+				8D0AAD5F1A33CCDB8734FE7844E06AC8 /* Pods-CLXTestTests-resources.sh */,
+				D4C84E454DBC14FEF62EC2A03F1D3498 /* Pods-CLXTestTests.debug.xcconfig */,
+				5322A29A606D17E47A73DE2DD9CF35EA /* Pods-CLXTestTests.release.xcconfig */,
+			);
+			name = "Pods-CLXTestTests";
+			path = "Target Support Files/Pods-CLXTestTests";
+			sourceTree = "<group>";
+		};
 		E9A2D2E704D5128BD90065AA48D6522C /* Security */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,32 +478,6 @@
 				3B8C2F3F38AC8B05D07C9BAACD044EAD /* AFSecurityPolicy.m */,
 			);
 			name = Security;
-			sourceTree = "<group>";
-		};
-		EBDF8B26B0EA59846D746EE9A83051AC /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				40FDAA55BD6F280D01F96098F17B09D1 /* Pods-CLXBaseUtility */,
-				623B9EE241D42E4704B1475E18BAA8B8 /* Pods-CLXBaseUtilityTests */,
-				EF0E60CDBAAD2A8B5F839680E0FDFD7E /* Pods-CLXTest */,
-				423171DB87DB2364B0B87379E3FC5B52 /* Pods-CLXTestTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		EF0E60CDBAAD2A8B5F839680E0FDFD7E /* Pods-CLXTest */ = {
-			isa = PBXGroup;
-			children = (
-				EEFAE942329F4B62C5DA86D1707A5FF6 /* Pods-CLXTest-acknowledgements.markdown */,
-				1F81BEB69D96BE9CC7B65EDA4B163351 /* Pods-CLXTest-acknowledgements.plist */,
-				7D142029268CDA29E84FB839AFCCC635 /* Pods-CLXTest-dummy.m */,
-				4F1EC2A635B49B13108CEEFD5FB3CA26 /* Pods-CLXTest-frameworks.sh */,
-				E440C92E8FE95D65C051E54A34F1ABCA /* Pods-CLXTest-resources.sh */,
-				EACCED44AB9273273C1C994764524B74 /* Pods-CLXTest.debug.xcconfig */,
-				1BF080E913A9E8FE02D1DB10684A0653 /* Pods-CLXTest.release.xcconfig */,
-			);
-			name = "Pods-CLXTest";
-			path = "Target Support Files/Pods-CLXTest";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,6 +511,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		07CE872B74B94E96F49C1A5BA0221C6E /* Pods-CLXPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C1D44251BBEBB80E884FDDAE296E03 /* Build configuration list for PBXNativeTarget "Pods-CLXPlayground" */;
+			buildPhases = (
+				D46181B3478E6E13680E0B9E96CEAB37 /* Sources */,
+				CEA3A3306F7EC66995120444BED6257B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CLXPlayground";
+			productName = "Pods-CLXPlayground";
+			productReference = C5D313BAA1E5D50A8AD6C9883AFCC743 /* libPods-CLXPlayground.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		0ABB1F445E792EFCB9EA8EDA7ACB460E /* Pods-CLXTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA7B546330C0D829057BA0358327945B /* Build configuration list for PBXNativeTarget "Pods-CLXTest" */;
@@ -456,7 +540,7 @@
 			);
 			name = "Pods-CLXTest";
 			productName = "Pods-CLXTest";
-			productReference = 993476884E0B1D58B0F6070669F46627 /* libPods-CLXTest.a */;
+			productReference = 3A1229EA323C623012EF56C02AF5C1E9 /* libPods-CLXTest.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		25450C3D7DFED1797768CF080A2D9BC3 /* Pods-CLXBaseUtilityTests */ = {
@@ -473,7 +557,7 @@
 			);
 			name = "Pods-CLXBaseUtilityTests";
 			productName = "Pods-CLXBaseUtilityTests";
-			productReference = A57C8CEFD706AC838BF6D69272FF4C5B /* libPods-CLXBaseUtilityTests.a */;
+			productReference = 7E8893A932BD9429F3EE975F3F52FFBE /* libPods-CLXBaseUtilityTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		584EAF2A452B69D0767EC6D68EDA95E1 /* Pods-CLXTestTests */ = {
@@ -489,7 +573,7 @@
 			);
 			name = "Pods-CLXTestTests";
 			productName = "Pods-CLXTestTests";
-			productReference = AE53B12C729BD56CCE0BB0E4399736EF /* libPods-CLXTestTests.a */;
+			productReference = 696041B94A06E8F037F6E660168B90EA /* libPods-CLXTestTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		9E033EDB5EC0819481B0546434FA577B /* AFNetworking */ = {
@@ -506,7 +590,23 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = 0504A62D8ADF9AEC08DDD3851561D1EA /* libAFNetworking.a */;
+			productReference = 31FF8BF3D5098468C27E0EF0189EF7A2 /* libAFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D5CB9A49EF79FD35D59AE4AD30C99393 /* Pods-CLXPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0991CD094FED7261A8495ED7392907 /* Build configuration list for PBXNativeTarget "Pods-CLXPlaygroundTests" */;
+			buildPhases = (
+				710E63EC3E5A092904E8477CDB14A7D4 /* Sources */,
+				90E8CACACD02D45BFBDF8EF7B3FE632C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CLXPlaygroundTests";
+			productName = "Pods-CLXPlaygroundTests";
+			productReference = 62DC996980C635B70E6F8FD6DB0769FA /* libPods-CLXPlaygroundTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E0A1FB728C5E2DC9215E3630DF6B3775 /* Pods-CLXBaseUtility */ = {
@@ -523,7 +623,7 @@
 			);
 			name = "Pods-CLXBaseUtility";
 			productName = "Pods-CLXBaseUtility";
-			productReference = F290ABB7731ABE409B4EA48BE84D34D6 /* libPods-CLXBaseUtility.a */;
+			productReference = C0ED8278C446CCE3A0C475170E85A802 /* libPods-CLXBaseUtility.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -543,13 +643,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 92E25BB0ACAFFE89F12112EDEFC5137A /* Products */;
+			productRefGroup = 09FB442BA3F95B6DA34F5CE0DF97FD0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9E033EDB5EC0819481B0546434FA577B /* AFNetworking */,
 				E0A1FB728C5E2DC9215E3630DF6B3775 /* Pods-CLXBaseUtility */,
 				25450C3D7DFED1797768CF080A2D9BC3 /* Pods-CLXBaseUtilityTests */,
+				07CE872B74B94E96F49C1A5BA0221C6E /* Pods-CLXPlayground */,
+				D5CB9A49EF79FD35D59AE4AD30C99393 /* Pods-CLXPlaygroundTests */,
 				0ABB1F445E792EFCB9EA8EDA7ACB460E /* Pods-CLXTest */,
 				584EAF2A452B69D0767EC6D68EDA95E1 /* Pods-CLXTestTests */,
 			);
@@ -596,6 +698,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		710E63EC3E5A092904E8477CDB14A7D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58A17ABEF019ADAA7977CB5CFE50853 /* Pods-CLXPlaygroundTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7EB665A461C2B7EFEE8333FC693BE1E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -609,6 +719,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				76D080DAFCB15A1BBFFC0D83870C88DF /* Pods-CLXTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46181B3478E6E13680E0B9E96CEAB37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4ACC51EBB919BA28DBCF6B97F8A9B8 /* Pods-CLXPlayground-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,7 +750,7 @@
 /* Begin XCBuildConfiguration section */
 		002B19866F76AF8D6F0C17F5225F27C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52EC74AB04271B3BAA21E700E7E2DB80 /* Pods-CLXBaseUtilityTests.release.xcconfig */;
+			baseConfigurationReference = 248FE3EC2BD747B268B014B6E831CA5C /* Pods-CLXBaseUtilityTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -641,6 +759,29 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		06FD352BEE2E57EB2E19F456DC3FB21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98E1B56F991729F26FA22418826CA1C /* Pods-CLXPlaygroundTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -699,7 +840,7 @@
 		};
 		2A789DFECB94FA6296011F5FAF3EC32E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EACCED44AB9273273C1C994764524B74 /* Pods-CLXTest.debug.xcconfig */;
+			baseConfigurationReference = 1E63458A532BD8358E888DBE8E6B6B4B /* Pods-CLXTest.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -720,9 +861,32 @@
 			};
 			name = Debug;
 		};
+		3873B56DF6F6E7AD41AEA23DA3D68F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD43BE22FB92B2C54CCF85EE80FCD449 /* Pods-CLXPlayground.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		3F0C9099A3B02CFAF26301F5D58BDD56 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 538ACBE308B28305364AF093D0B3CFE4 /* Pods-CLXTestTests.release.xcconfig */;
+			baseConfigurationReference = 5322A29A606D17E47A73DE2DD9CF35EA /* Pods-CLXTestTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -769,7 +933,7 @@
 		};
 		72F0989B5E1EB08B1CF15B2891B7D14C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B467F5B86BA7235B4F2CFBB3AC9BF1C9 /* Pods-CLXBaseUtility.debug.xcconfig */;
+			baseConfigurationReference = 79356E7841D99019B73DE35074F37E65 /* Pods-CLXBaseUtility.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -792,7 +956,7 @@
 		};
 		787A91215DFB73BB92AF4B17FA166A1A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BF080E913A9E8FE02D1DB10684A0653 /* Pods-CLXTest.release.xcconfig */;
+			baseConfigurationReference = 955757AF1CF375D54DA4246B6BE3039A /* Pods-CLXTest.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -815,7 +979,7 @@
 		};
 		AD80EE026E0C95E63D10184C733A1843 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6A7F98D6ADD6499561BEC1A659B06B1 /* Pods-CLXBaseUtility.release.xcconfig */;
+			baseConfigurationReference = 452FE19D9FACA69A3310814278C3418D /* Pods-CLXBaseUtility.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -835,6 +999,52 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		B4ADF66DCC78FBB49BEDE3C5A18164CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE129E5740F9A8295E6F8DAD49270EE /* Pods-CLXPlayground.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BA922911601792040420A63DD4F04767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 265AC4B024943867E65A1FB6FD9F9CD5 /* Pods-CLXPlaygroundTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
 		};
 		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -911,7 +1121,7 @@
 		};
 		E9A0B2F51D74958F4119F4AF905719CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 086E3D3034735F559FC42091BBA65494 /* Pods-CLXTestTests.debug.xcconfig */;
+			baseConfigurationReference = D4C84E454DBC14FEF62EC2A03F1D3498 /* Pods-CLXTestTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -934,7 +1144,7 @@
 		};
 		FC5F9AA92A6C9867ADED1922BA6B4694 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5B3EC0F8FB09AD635C3B628FD1F4513 /* Pods-CLXBaseUtilityTests.debug.xcconfig */;
+			baseConfigurationReference = 61F356B5A018AAEBA95FFEF8FBB2808A /* Pods-CLXBaseUtilityTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -976,6 +1186,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		48C1D44251BBEBB80E884FDDAE296E03 /* Build configuration list for PBXNativeTarget "Pods-CLXPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3873B56DF6F6E7AD41AEA23DA3D68F45 /* Debug */,
+				B4ADF66DCC78FBB49BEDE3C5A18164CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6AE02ADD08D282D20CC926D687687F76 /* Build configuration list for PBXNativeTarget "Pods-CLXBaseUtilityTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1008,6 +1227,15 @@
 			buildConfigurations = (
 				E9A0B2F51D74958F4119F4AF905719CE /* Debug */,
 				3F0C9099A3B02CFAF26301F5D58BDD56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0991CD094FED7261A8495ED7392907 /* Build configuration list for PBXNativeTarget "Pods-CLXPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA922911601792040420A63DD4F04767 /* Debug */,
+				06FD352BEE2E57EB2E19F456DC3FB21B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
