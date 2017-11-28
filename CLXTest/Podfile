@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+#source 'http://repo.baichuan-ios.taobao.com/baichuanSDK/AliBCSpecs.git'
+#source 'https://github.com/CocoaPods/Specs.git'
+workspace 'CLXKit'
+
+target 'CLXTest' do
+	project './CLXTest.xcodeproj'
+  target 'CLXTestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+
+target 'CLXBaseUtility' do
+	project '../CLXBaseUtility/CLXBaseUtility.xcodeproj'
+    pod 'AFNetworking', '~> 3.0'
+#    pod 'APMPlus', '~> 1.2.3'
+  target 'CLXBaseUtilityTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'AFNetworking', '~> 3.0'
+  end
+
+end
