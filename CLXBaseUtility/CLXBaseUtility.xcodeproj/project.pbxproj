@@ -20,8 +20,6 @@
 		722E88BE1FC98FFD00792FE0 /* CLXTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 722E88BC1FC98FFD00792FE0 /* CLXTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		722E88BF1FC98FFD00792FE0 /* CLXTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E88BD1FC98FFD00792FE0 /* CLXTree.m */; };
 		723F84521FCBA64700D128B5 /* CLXTreeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 723F84511FCBA64700D128B5 /* CLXTreeTest.m */; };
-		723F84551FCCE96200D128B5 /* CLXSafeMutableDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 723F84541FCCE96200D128B5 /* CLXSafeMutableDictionaryTest.m */; };
-		723F845B1FCCF19300D128B5 /* CLXKVOTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 723F845A1FCCF19300D128B5 /* CLXKVOTest.m */; };
 		724FA1FF1FAAC4FE001CF08B /* NSURL+CLXAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 724FA1FA1FAAC4FE001CF08B /* NSURL+CLXAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		724FA2001FAAC4FE001CF08B /* NSURL+CLXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 724FA1FB1FAAC4FE001CF08B /* NSURL+CLXAdd.m */; };
 		724FA2051FAAC543001CF08B /* CLXURLEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 724FA2031FAAC543001CF08B /* CLXURLEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,8 +41,6 @@
 		72AE78C81FC54AA000BFE42D /* CLXURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AE78C61FC54AA000BFE42D /* CLXURLProtocol.h */; };
 		72AE78C91FC54AA000BFE42D /* CLXURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE78C71FC54AA000BFE42D /* CLXURLProtocol.m */; };
 		72AE78CB1FC554FE00BFE42D /* CLXURLProtocolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE78CA1FC554FE00BFE42D /* CLXURLProtocolTest.m */; };
-		72AE78D61FC6BFA000BFE42D /* CLXMediatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE78D51FC6BFA000BFE42D /* CLXMediatorTest.m */; };
-		72BCE2CB1FAD7FCF007823D5 /* CompressionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BCE2CA1FAD7FCF007823D5 /* CompressionTest.m */; };
 		72BCE2D71FADF987007823D5 /* CLXKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BCE2CE1FADF987007823D5 /* CLXKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72BCE2D81FADF987007823D5 /* CLXKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BCE2CF1FADF987007823D5 /* CLXKeychain.m */; };
 		72BCE2D91FADF987007823D5 /* CLXKeychainItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BCE2D01FADF987007823D5 /* CLXKeychainItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,6 +50,8 @@
 		72BCE2DD1FADF987007823D5 /* CLXRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BCE2D51FADF987007823D5 /* CLXRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72BCE2DE1FADF987007823D5 /* CLXRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BCE2D61FADF987007823D5 /* CLXRandom.m */; };
 		72BCE2E41FAF426A007823D5 /* CLXHashTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BCE2E31FAF426A007823D5 /* CLXHashTest.m */; };
+		72F216AA1FE3A14200484662 /* CLXTouchDelayGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F216A81FE3A14200484662 /* CLXTouchDelayGestureRecognizer.h */; };
+		72F216AB1FE3A14200484662 /* CLXTouchDelayGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F216A91FE3A14200484662 /* CLXTouchDelayGestureRecognizer.m */; };
 		72F57E871FBA8DD300BC2D59 /* NSDictionary+CLXAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F57E851FBA8DD300BC2D59 /* NSDictionary+CLXAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72F57E881FBA8DD300BC2D59 /* NSDictionary+CLXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F57E861FBA8DD300BC2D59 /* NSDictionary+CLXAdd.m */; };
 		72F57E8A1FBAE99E00BC2D59 /* CLXEncryptorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F57E891FBAE99E00BC2D59 /* CLXEncryptorTest.m */; };
@@ -87,8 +85,6 @@
 		722E88BC1FC98FFD00792FE0 /* CLXTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXTree.h; sourceTree = "<group>"; };
 		722E88BD1FC98FFD00792FE0 /* CLXTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXTree.m; sourceTree = "<group>"; };
 		723F84511FCBA64700D128B5 /* CLXTreeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXTreeTest.m; sourceTree = "<group>"; };
-		723F84541FCCE96200D128B5 /* CLXSafeMutableDictionaryTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXSafeMutableDictionaryTest.m; sourceTree = "<group>"; };
-		723F845A1FCCF19300D128B5 /* CLXKVOTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXKVOTest.m; sourceTree = "<group>"; };
 		724FA1FA1FAAC4FE001CF08B /* NSURL+CLXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+CLXAdd.h"; sourceTree = "<group>"; };
 		724FA1FB1FAAC4FE001CF08B /* NSURL+CLXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+CLXAdd.m"; sourceTree = "<group>"; };
 		724FA2031FAAC543001CF08B /* CLXURLEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXURLEncoder.h; sourceTree = "<group>"; };
@@ -113,8 +109,6 @@
 		72AE78C61FC54AA000BFE42D /* CLXURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXURLProtocol.h; sourceTree = "<group>"; };
 		72AE78C71FC54AA000BFE42D /* CLXURLProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXURLProtocol.m; sourceTree = "<group>"; };
 		72AE78CA1FC554FE00BFE42D /* CLXURLProtocolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXURLProtocolTest.m; sourceTree = "<group>"; };
-		72AE78D51FC6BFA000BFE42D /* CLXMediatorTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXMediatorTest.m; sourceTree = "<group>"; };
-		72BCE2CA1FAD7FCF007823D5 /* CompressionTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompressionTest.m; sourceTree = "<group>"; };
 		72BCE2CE1FADF987007823D5 /* CLXKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLXKeychain.h; sourceTree = "<group>"; };
 		72BCE2CF1FADF987007823D5 /* CLXKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLXKeychain.m; sourceTree = "<group>"; };
 		72BCE2D01FADF987007823D5 /* CLXKeychainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLXKeychainItem.h; sourceTree = "<group>"; };
@@ -124,6 +118,8 @@
 		72BCE2D51FADF987007823D5 /* CLXRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLXRandom.h; sourceTree = "<group>"; };
 		72BCE2D61FADF987007823D5 /* CLXRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLXRandom.m; sourceTree = "<group>"; };
 		72BCE2E31FAF426A007823D5 /* CLXHashTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXHashTest.m; sourceTree = "<group>"; };
+		72F216A81FE3A14200484662 /* CLXTouchDelayGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXTouchDelayGestureRecognizer.h; sourceTree = "<group>"; };
+		72F216A91FE3A14200484662 /* CLXTouchDelayGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXTouchDelayGestureRecognizer.m; sourceTree = "<group>"; };
 		72F57E851FBA8DD300BC2D59 /* NSDictionary+CLXAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CLXAdd.h"; sourceTree = "<group>"; };
 		72F57E861FBA8DD300BC2D59 /* NSDictionary+CLXAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CLXAdd.m"; sourceTree = "<group>"; };
 		72F57E891FBAE99E00BC2D59 /* CLXEncryptorTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXEncryptorTest.m; sourceTree = "<group>"; };
@@ -249,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				725BEED51F9DB54800BB1516 /* CLXBaseUtility.h */,
+				72F216A71FE3A11800484662 /* Gesture */,
 				722E88BB1FC98FAF00792FE0 /* Tree */,
 				72AE78C51FC54A8400BFE42D /* NSURLProtocol */,
 				72AE78BC1FC4480800BFE42D /* Host */,
@@ -275,18 +272,14 @@
 				725BEF051F9DC51B00BB1516 /* CLXRandomTests.m */,
 				7229A59D1FA0388600B833EA /* CLXKeychainTest.m */,
 				724FA20B1FAB2080001CF08B /* CLXURLEncodeTest.m */,
-				72BCE2CA1FAD7FCF007823D5 /* CompressionTest.m */,
 				72BCE2E31FAF426A007823D5 /* CLXHashTest.m */,
 				7226D9721FB5AF08004AC5F0 /* CLXTimerTest.m */,
 				72F57E891FBAE99E00BC2D59 /* CLXEncryptorTest.m */,
 				72AE78C11FC5135D00BFE42D /* CLXHostTest.m */,
 				72AE78CA1FC554FE00BFE42D /* CLXURLProtocolTest.m */,
-				72AE78D51FC6BFA000BFE42D /* CLXMediatorTest.m */,
 				72A452CA1FC819D700EE9877 /* CLXGCDTest.m */,
 				722E88B71FC8EAE400792FE0 /* CLXRuntimeTest.m */,
 				723F84511FCBA64700D128B5 /* CLXTreeTest.m */,
-				723F84541FCCE96200D128B5 /* CLXSafeMutableDictionaryTest.m */,
-				723F845A1FCCF19300D128B5 /* CLXKVOTest.m */,
 			);
 			path = CLXBaseUtilityTests;
 			sourceTree = "<group>";
@@ -340,6 +333,15 @@
 			path = Random;
 			sourceTree = "<group>";
 		};
+		72F216A71FE3A11800484662 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				72F216A81FE3A14200484662 /* CLXTouchDelayGestureRecognizer.h */,
+				72F216A91FE3A14200484662 /* CLXTouchDelayGestureRecognizer.m */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
 		72F57E8B1FBAEC2900BC2D59 /* Encryptor */ = {
 			isa = PBXGroup;
 			children = (
@@ -381,6 +383,7 @@
 				724FA2091FAAC7D9001CF08B /* CLXURLEncodeMaker.h in Headers */,
 				721CEF961FB19207008C8619 /* CLXDigest.h in Headers */,
 				72BCE2DB1FADF987007823D5 /* CLXKeychainQuery.h in Headers */,
+				72F216AA1FE3A14200484662 /* CLXTouchDelayGestureRecognizer.h in Headers */,
 				72BCE2DD1FADF987007823D5 /* CLXRandom.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -580,6 +583,7 @@
 				724FA2001FAAC4FE001CF08B /* NSURL+CLXAdd.m in Sources */,
 				72F57E8F1FBAEC2900BC2D59 /* CLXEncryptor.m in Sources */,
 				72AE78C91FC54AA000BFE42D /* CLXURLProtocol.m in Sources */,
+				72F216AB1FE3A14200484662 /* CLXTouchDelayGestureRecognizer.m in Sources */,
 				7226D96B1FB58815004AC5F0 /* CLXRuntimeHelper.c in Sources */,
 				72F57E881FBA8DD300BC2D59 /* NSDictionary+CLXAdd.m in Sources */,
 				724FA2061FAAC543001CF08B /* CLXURLEncoder.m in Sources */,
@@ -599,18 +603,14 @@
 				7226D9731FB5AF08004AC5F0 /* CLXTimerTest.m in Sources */,
 				72AE78C21FC5135D00BFE42D /* CLXHostTest.m in Sources */,
 				722E88B81FC8EAE400792FE0 /* CLXRuntimeTest.m in Sources */,
-				72AE78D61FC6BFA000BFE42D /* CLXMediatorTest.m in Sources */,
 				72A452CB1FC819D700EE9877 /* CLXGCDTest.m in Sources */,
-				723F84551FCCE96200D128B5 /* CLXSafeMutableDictionaryTest.m in Sources */,
 				72AE78CB1FC554FE00BFE42D /* CLXURLProtocolTest.m in Sources */,
 				725BEF061F9DC51B00BB1516 /* CLXRandomTests.m in Sources */,
 				72F57E8A1FBAE99E00BC2D59 /* CLXEncryptorTest.m in Sources */,
 				724FA20C1FAB2080001CF08B /* CLXURLEncodeTest.m in Sources */,
-				72BCE2CB1FAD7FCF007823D5 /* CompressionTest.m in Sources */,
 				7229A59E1FA0388600B833EA /* CLXKeychainTest.m in Sources */,
 				725BEEF21F9DB5FD00BB1516 /* CLXWeakProxyTests.m in Sources */,
 				72BCE2E41FAF426A007823D5 /* CLXHashTest.m in Sources */,
-				723F845B1FCCF19300D128B5 /* CLXKVOTest.m in Sources */,
 				723F84521FCBA64700D128B5 /* CLXTreeTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

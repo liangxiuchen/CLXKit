@@ -7,8 +7,11 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import <objc/runtime.h>
+#include <stdatomic.h>
 @interface CLXPlaygroundTests : XCTestCase
+
+@property (nonatomic, assign)  NSInteger i;
 
 @end
 
@@ -25,8 +28,10 @@
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    unsigned int count = 0;
+    objc_property_t *p = class_copyPropertyList(self.class, &count);
+    const char *attr = property_getAttributes(p[0]);
+    
 }
 
 - (void)testPerformanceExample {

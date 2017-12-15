@@ -15,8 +15,11 @@
 		725BEF5C1F9DDB7800BB1516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725BEF5A1F9DDB7800BB1516 /* LaunchScreen.storyboard */; };
 		725BEF5F1F9DDB7800BB1516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 725BEF5E1F9DDB7800BB1516 /* main.m */; };
 		725BEF691F9DDB7900BB1516 /* CLXTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 725BEF681F9DDB7900BB1516 /* CLXTestTests.m */; };
+		729153BC1FD0EDDF006CD685 /* CLXNibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 729153BB1FD0EDDF006CD685 /* CLXNibView.m */; };
+		729153BE1FD0EDEE006CD685 /* CLXNibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 729153BD1FD0EDEE006CD685 /* CLXNibView.xib */; };
 		72A221501FBD90FA00C2E9FC /* CLXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A2214E1FBD90FA00C2E9FC /* CLXTableViewController.m */; };
 		72A221511FBD90FA00C2E9FC /* CLXTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A2214F1FBD90FA00C2E9FC /* CLXTableViewController.xib */; };
+		72CD11F51FCF93E9004FC91D /* CLXTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 72CD11F41FCF93E9004FC91D /* CLXTest.mm */; };
 		D5533FF81A14232A47471259 /* libPods-CLXTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7C69949C550B193B3BA667 /* libPods-CLXTestTests.a */; };
 /* End PBXBuildFile section */
 
@@ -48,9 +51,14 @@
 		725BEF6A1F9DDB7900BB1516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		725BEF751F9DDB8700BB1516 /* CLXBaseUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CLXBaseUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		725BEF801F9DE9FE00BB1516 /* CLXTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CLXTest.entitlements; sourceTree = "<group>"; };
+		729153BA1FD0EDDF006CD685 /* CLXNibView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXNibView.h; sourceTree = "<group>"; };
+		729153BB1FD0EDDF006CD685 /* CLXNibView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXNibView.m; sourceTree = "<group>"; };
+		729153BD1FD0EDEE006CD685 /* CLXNibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLXNibView.xib; sourceTree = "<group>"; };
 		72A2214D1FBD90FA00C2E9FC /* CLXTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXTableViewController.h; sourceTree = "<group>"; };
 		72A2214E1FBD90FA00C2E9FC /* CLXTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXTableViewController.m; sourceTree = "<group>"; };
 		72A2214F1FBD90FA00C2E9FC /* CLXTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLXTableViewController.xib; sourceTree = "<group>"; };
+		72CD11F31FCF93E9004FC91D /* CLXTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXTest.h; sourceTree = "<group>"; };
+		72CD11F41FCF93E9004FC91D /* CLXTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CLXTest.mm; sourceTree = "<group>"; };
 		BF7C69949C550B193B3BA667 /* libPods-CLXTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLXTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA067325C21D9E2FB3B55997 /* Pods-CLXTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLXTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLXTestTests/Pods-CLXTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		E02E2484A264798F4EC951DB /* Pods-CLXTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLXTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLXTest/Pods-CLXTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +121,11 @@
 				72A2214D1FBD90FA00C2E9FC /* CLXTableViewController.h */,
 				72A2214E1FBD90FA00C2E9FC /* CLXTableViewController.m */,
 				72A2214F1FBD90FA00C2E9FC /* CLXTableViewController.xib */,
+				72CD11F31FCF93E9004FC91D /* CLXTest.h */,
+				72CD11F41FCF93E9004FC91D /* CLXTest.mm */,
+				729153BA1FD0EDDF006CD685 /* CLXNibView.h */,
+				729153BB1FD0EDDF006CD685 /* CLXNibView.m */,
+				729153BD1FD0EDEE006CD685 /* CLXNibView.xib */,
 			);
 			path = CLXTest;
 			sourceTree = "<group>";
@@ -242,6 +255,7 @@
 			files = (
 				725BEF5C1F9DDB7800BB1516 /* LaunchScreen.storyboard in Resources */,
 				72A221511FBD90FA00C2E9FC /* CLXTableViewController.xib in Resources */,
+				729153BE1FD0EDEE006CD685 /* CLXNibView.xib in Resources */,
 				725BEF591F9DDB7800BB1516 /* Assets.xcassets in Resources */,
 				725BEF571F9DDB7800BB1516 /* Main.storyboard in Resources */,
 			);
@@ -364,6 +378,8 @@
 				72A221501FBD90FA00C2E9FC /* CLXTableViewController.m in Sources */,
 				725BEF5F1F9DDB7800BB1516 /* main.m in Sources */,
 				725BEF511F9DDB7800BB1516 /* AppDelegate.m in Sources */,
+				729153BC1FD0EDDF006CD685 /* CLXNibView.m in Sources */,
+				72CD11F51FCF93E9004FC91D /* CLXTest.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

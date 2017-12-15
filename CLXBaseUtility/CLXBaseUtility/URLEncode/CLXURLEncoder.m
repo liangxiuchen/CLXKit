@@ -87,7 +87,7 @@
             } else {}
             if ([path hasSuffix:@"/"] && path.length > 1) {
                 path = [path substringToIndex:path.length - 2];
-            }
+            } else {}
             NSString *encodePath = [path stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLPathAllowedCharacterSet]];
             if (param.length != 0) {
 
