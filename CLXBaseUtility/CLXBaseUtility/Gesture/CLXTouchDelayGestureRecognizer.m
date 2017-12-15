@@ -14,9 +14,9 @@
     NSTimer *_timer;
 }
 
-- (instancetype)initWithTarget:(id)target action:(SEL)action
+- (instancetype)init
 {
-    self = [super initWithTarget:target action:action];
+    self = [super initWithTarget:nil action:nil];
     if (self) {
         self.delaysTouchesBegan = YES;
     }
@@ -47,6 +47,7 @@
 {
     [_timer invalidate];
     _timer = nil;
+    [super reset];
 }
 
 @end
