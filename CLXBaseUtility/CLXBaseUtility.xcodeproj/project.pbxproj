@@ -245,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				725BEED51F9DB54800BB1516 /* CLXBaseUtility.h */,
+				727DA61A1FEC9C0E0013AE0A /* Operation */,
 				72F216A71FE3A11800484662 /* Gesture */,
 				722E88BB1FC98FAF00792FE0 /* Tree */,
 				72AE78C51FC54A8400BFE42D /* NSURLProtocol */,
@@ -291,6 +292,13 @@
 				725BEEF41F9DB62000BB1516 /* CLXWeakProxy.m */,
 			);
 			path = WeakProxy;
+			sourceTree = "<group>";
+		};
+		727DA61A1FEC9C0E0013AE0A /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Operation;
 			sourceTree = "<group>";
 		};
 		72AE78BC1FC4480800BFE42D /* Host */ = {
@@ -749,6 +757,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CLXBaseUtility/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_GENERATE_MAP_FILE = NO;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liang.xiu.chen.cn.bexrunnerTests.CLXBaseUtility;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -770,6 +779,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CLXBaseUtility/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_GENERATE_MAP_FILE = NO;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liang.xiu.chen.cn.bexrunnerTests.CLXBaseUtility;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

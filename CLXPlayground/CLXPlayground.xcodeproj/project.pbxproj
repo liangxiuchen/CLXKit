@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		727DA61C1FECA0B90013AE0A /* NSOperationSourceCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 727DA61B1FECA0B90013AE0A /* NSOperationSourceCode.m */; };
 		72CD11EE1FCD6004004FC91D /* CLXRuntimeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CD11EC1FCD6004004FC91D /* CLXRuntimeInfo.h */; };
 		72CD11EF1FCD6004004FC91D /* CLXRuntimeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CD11ED1FCD6004004FC91D /* CLXRuntimeInfo.m */; };
 		72F539641FCD07C700BD963E /* CLXPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F5395A1FCD07C700BD963E /* CLXPlayground.framework */; };
@@ -38,6 +39,7 @@
 		0D03D2995727A1AA9E9BD608 /* Pods-CLXPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLXPlayground.release.xcconfig"; path = "../CLXTest/Pods/Target Support Files/Pods-CLXPlayground/Pods-CLXPlayground.release.xcconfig"; sourceTree = "<group>"; };
 		3CA480A833D68CB315653DAB /* Pods-CLXPlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLXPlaygroundTests.debug.xcconfig"; path = "../CLXTest/Pods/Target Support Files/Pods-CLXPlaygroundTests/Pods-CLXPlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
 		65299AB739BD46AC83014BC9 /* libPods-CLXPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLXPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		727DA61B1FECA0B90013AE0A /* NSOperationSourceCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationSourceCode.m; sourceTree = "<group>"; };
 		72CD11EC1FCD6004004FC91D /* CLXRuntimeInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXRuntimeInfo.h; sourceTree = "<group>"; };
 		72CD11ED1FCD6004004FC91D /* CLXRuntimeInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXRuntimeInfo.m; sourceTree = "<group>"; };
 		72F5395A1FCD07C700BD963E /* CLXPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLXPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 				72F539791FCD094C00BD963E /* NSObject+CLXKVO.m */,
 				72F5395D1FCD07C700BD963E /* CLXPlayground.h */,
 				72F5395E1FCD07C700BD963E /* Info.plist */,
+				727DA61B1FECA0B90013AE0A /* NSOperationSourceCode.m */,
 			);
 			path = CLXPlayground;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 			files = (
 				72F539831FCD094C00BD963E /* CLXMediator.m in Sources */,
 				72F5397D1FCD094C00BD963E /* BlockCompression.c in Sources */,
+				727DA61C1FECA0B90013AE0A /* NSOperationSourceCode.m in Sources */,
 				72F5397C1FCD094C00BD963E /* CLXSafeMutableDictionary.m in Sources */,
 				72F539811FCD094C00BD963E /* NSObject+CLXKVO.m in Sources */,
 				72CD11EF1FCD6004004FC91D /* CLXRuntimeInfo.m in Sources */,
